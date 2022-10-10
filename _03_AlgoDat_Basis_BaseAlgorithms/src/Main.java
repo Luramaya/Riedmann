@@ -4,11 +4,13 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int array[] = {10, 20, 12, 9, 5, 3, 55};
+        int array[] = {20, 2, 1, 9, 5, 3, 5};
         System.out.println("Anfangsarray:" + Arrays.toString(array));
 
         int length = array.length;
+    public static int[] revert(int[] data){
 
+        }
         for (int i = 0; i < length - 1; i++) {
 
             if (array[i] > array[i + 1]) {
