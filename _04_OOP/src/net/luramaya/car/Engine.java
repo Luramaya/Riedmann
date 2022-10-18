@@ -1,3 +1,5 @@
+package net.luramaya.car;
+
 public class Engine {
     private double duckPower;
     public enum TYPE{DIESEL,GAS}

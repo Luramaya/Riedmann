@@ -1,3 +1,5 @@
+package net.luramaya.car;
+
 public class Mirror {
     public enum POSITION{RIGHT,LEFT, REAR}
     private POSITION mirrorPos;
