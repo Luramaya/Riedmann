@@ -17,5 +17,17 @@ public class Main {
         kevin.addMirrors(rightMirror);
         kevin.getMirrors().get(0).toggleFold();
 
+
+        Engine truckEngine = new Engine(3000, Engine.TYPE.DIESEL);
+
+        Truck mack = new Truck(truckEngine, "yellow",4, "Waschmaschinen leben Länger", "Trucksla", 500, 7, true);
+
+        System.out.println(mack.isHasTrailer());
+
     }
+
+
+
+
+
 }
